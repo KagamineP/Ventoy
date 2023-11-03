@@ -304,6 +304,147 @@ String.prototype.endsWith = function(str) {
         return false;
 }
 
+var g_vtoy_cur_language_ru =
+{
+    "STR_INFO": "Информация",
+    "STR_BTN_OK": "ОК",
+    "STR_BTN_CANCEL": "Отмена",
+    "STR_SAVE": " Сохранить",
+    "STR_RESET": " Сбросить",
+    "STR_DISCARD": " Отменить",
+    "STR_ENABLE": " Включить",
+    "STR_ADD": "Добавить",
+    "STR_DEL": "Удалить",
+    "STR_CLEAR": "Очистить",
+    "STR_STATUS": "Статус",
+    "STR_DEFAULT": "По-умолчанию",
+    "STR_DEFAULT_SEL": "По-умолчанию",
+    "STR_RANDOM_SEL": "Случайный",
+    "STR_OPERATION": "Операция",
+    "STR_VALID": "Действительный",
+    "STR_INVALID": "Недействительный",
+    "STR_OPT_SETTINGS": "Настройка опций",
+    "STR_OPT_DESC": "Описание опции",
+    "STR_EDIT": "Редактировать",
+    "STR_RESET": "Сбросить",
+    "STR_FILE": "Файл",
+    "STR_DIR": "Директория",
+    "STR_SAVE_TIP": "Данные на текущей странице были изменены. Вы хотите сохранить изменения?",
+    "STR_SAVE_SUCCESS": "Конфигурация успешно сохранена!",
+    "STR_FILE_EXIST": "ОК",
+    "STR_FILE_NONEXIST": "Недействительный",
+    "STR_FILE_FUZZY": "Нечеткий",
+    "STR_DIR_EXIST": "ОК",
+    "STR_DIR_NONEXIST": "Недействительный",
+    "STR_DUPLICATE_PATH": "Дублировать путь",
+    "STR_DELETE_CONFIRM": "Вы действительно хотите удалить это?",
+    "STR_FILE_PATH": "Путь к файлу",
+    "STR_DIR_PATH": "Путь к директории",
+
+    "STR_SET_ALIAS": "Задать псевдоним меню",
+    "STR_ALIAS": "Псевдоним",
+    "STR_SET_TIP": "Задать подсказку",
+    "STR_TIP": "Подсказка",
+    "STR_SET_CLASS": "Указать класс меню",
+    "STR_CLASS": "Класс",
+    "STR_SET_INJECTION": "Указать инъекцию",
+    "STR_SET_AUTO_INS": "Указать автоматическую установку",
+    "STR_SET_AUTO_TEMPLATE": "Шаблон",
+
+    "STR_SET_PERSISTENCE": "Указать постоянство",
+    "STR_SET_PERSISTENCE_DAT": "Файл Dat",
+
+    "STR_SET_DUD": "Указать DUD",
+    "STR_SET_DUD_FILE": "Файл DUD",
+
+    "STR_PASSWORD": "Пароль",
+    "STR_SET_PASSWORD": "Указать пароль",
+    "STR_PASSWORD_TYPE": "Тип пароля",
+    "STR_PASSWORD_VALUE": "Значение пароля",
+
+
+    "STR_WEB_COMMUNICATION_ERR":"Ошибка связи:",
+    "STR_WEB_REMOTE_ABNORMAL":"Ошибка связи: удаленный сбой",
+    "STR_WEB_REQUEST_TIMEOUT":"Ошибка связи: Время ожидания запроса истекло",
+    "STR_WEB_SERVICE_UNAVAILABLE":"Ошибка связи: Служба недоступна",
+    "STR_WEB_SERVICE_BUSY":"Служба занята, пожалуйста, повторите попытку позже.",
+
+    "STR_PLUG_DEVICE": "Информация об устройстве",
+    "STR_PLUG_CONTROL": "Плагин глобального управления",
+    "STR_PLUG_THEME": "Плагин темы",
+    "STR_PLUG_ALIAS": "Плагин псевдонима меню",
+    "STR_PLUG_CLASS": "Плагин класса меню",
+    "STR_PLUG_TIP": "Плагин подсказки",
+    "STR_PLUG_AUTO_INSTALL": "Плагин автоустановки",
+    "STR_PLUG_PERSISTENCE": "Плагин постоянства",
+    "STR_PLUG_INJECTION": "Плагин инъекции",
+    "STR_PLUG_CONF_REPLACE": "Плагин замены загрузочной конфигурации",
+    "STR_PLUG_PASSWORD": "Плагин пароля",
+    "STR_PLUG_IMAGELIST": "Плагин списка образов",
+    "STR_PLUG_AUTO_MEMDISK": "Плагин автоматического Memdisk",
+    "STR_PLUG_DUD": "Плагин DUD",
+    "STR_PLUG_DONATION": "Пожертвование",
+
+    "STR_PATH_TOO_LONG": "Путь превышает максимальную поддерживаемую длину, пожалуйста, проверьте!",
+    "STR_INPUT_TOO_LONG": "Строка превышает максимальную поддерживаемую длину, пожалуйста, проверьте!",
+    "STR_INVALID_FILE_PATH": "Неверный или несуществующий полный путь к файлу, пожалуйста, проверьте!",
+    "STR_INVALID_FILE_PATH1": "Первый путь к файлу неверен или не существует!",    
+    "STR_INVALID_FILE_PATH2": "Второй путь к файлу неверен или не существует!",    
+    "STR_INVALID_NEW_FILE_PATH": "Полный путь к новому файлу неверен или не существует, пожалуйста, проверьте!",
+    "STR_INVALID_DIR_PATH": "Неверный путь к директории, пожалуйста, проверьте!",
+    "STR_INVALID_NUMBER": "Пожалуйста, введите действительное неотрицательное целое число!",
+    "STR_INVALID_AUTOSEL": "Автоматический выбор превышает длину списка!",
+    "STR_INVALID_TIMEOUT": "Пожалуйста, введите действительное целое число тайм-аута!",
+    "STR_INVALID_PERCENT": "Пожалуйста, введите целое число в диапазоне от 0 до 100!",
+    "STR_INVALID_COLOR": "Пожалуйста, введите правильный цвет!",
+    "STR_SELECT": "Выберите, пожалуйста",
+    "STR_SET_ALIAS_FOR_FILE": "Задать псевдоним меню для файла",
+    "STR_SET_ALIAS_FOR_DIR": "Задать псевдоним меню для директории",
+    "STR_SET_TIP_FOR_FILE": "Задать посказку меню для файла",
+    "STR_SET_TIP_FOR_DIR": "Задать подсказку меню для директории",
+    "STR_SET_INJECTION_FOR_FILE": "[image] Указать инъекцию для файла",
+    "STR_SET_INJECTION_FOR_DIR": "[parent] Указать одинаковую инъекцию для всех файлов в директории.",
+    "STR_INVALID_ARCHIVE_PATH": "Неверный или несуществующий путь к архивному файлу, пожалуйста, проверьте!",
+    "STR_SET_PWD_FOR_FILE": "[file] Указать пароль для файла",
+    "STR_SET_PWD_FOR_DIR": "[parent] Указать один и тот же пароль для всех файлов в каталоге",
+    "STR_SET_AUTO_INSTALL_FOR_FILE": "[image] Указать шаблон автоматической установки для файла",
+    "STR_SET_AUTO_INSTALL_FOR_DIR": "[parent] Указать один и тот же шаблон автоматической установки для всех файлов в каталоге.",
+
+    "STR_SET_CLASS_BY_KEY": "[key] Установить класс меню по ключевому слову названия файла",
+    "STR_SET_CLASS_BY_DIR": "[dir] Установить класс меню для директории",
+    "STR_SET_CLASS_BY_PARENT": "[parent] Установить класс меню для всех файлов в каталоге",
+    "STR_SET_IMAGE_PWD": "[file] Установить пароль для файла",
+    "STR_SET_PARENT_PWD": "[parent] Установить один и тот же пароль для всех файлов в каталоге",
+
+    "STR_SET_SEARCH_ROOT": "Указать корень поиска",    
+    "STR_SET_DEFAULT_IMAGE": "Указать образ по-умолчанию",
+    "STR_ADD_THEME": "Добавить тему",
+    "STR_ADD_FONT": "Указать шрифт",
+    "STR_ADD_FILE_TO_LIST": "Добавить файл в список",
+    "STR_DEFAULT_SELECT": " По-умолчанию",
+    "STR_AUTO_TEMPLATE": "Шаблон автоматической установки",
+    "STR_ADD_AUTO_TEMPLATE": "Добавть шаблон автоматической установки",
+    
+    "STR_PERSISTENCE_DAT": "Файл Dat постоянства",
+    "STR_ADD_PERSISTENCE_DAT": "Добавить файл Dat постоянства",
+
+    "STR_DUD_FILE": "Файл DUD",
+    "STR_ADD_DUD_FILE": "Добавить файл DUD",
+
+    "STR_DEL_LAST": "Запись будет удалена, если вы удалите этот последний элемент. Продолжать?",
+
+    "STR_CLOSE_TIP": "Сервис недоступен, страница закроется!",
+    "STR_SECURE_BOOT_ENABLE": "Включить",
+    "STR_SECURE_BOOT_DISABLE": "Отключить",
+    "STR_SYNTAX_ERROR_TIP": "Обнаружена синтаксическая ошибка в файле ventoy.json, поэтому конфигурация не загружена!",
+    "STR_INVALID_CONFIG_TIP": "В файле ventoy.json обнаружена недопустимая конфигурация, поэтому конфигурация не загружена!",
+    "STR_CONFIG_SAVE_ERROR_TIP": "Не удалось создать ventoy.json. Проверьте VentoyPlugson.log для получения более подробной информации!",
+
+    "STR_JSON_PREVIEW": "Предпросмотр JSON",
+    "STR_JSON_COPY_SUCCESS": "Успешное копирование JSON",
+    "STR_JSON_COPY_FAILED": "Не удалось скопировать JSON",
+
+    "STR_XXX": "xxx"
 
 var g_vtoy_cur_language_en = 
 {
@@ -608,7 +749,9 @@ function GetResetTabConfigTipMsg(index, name) {
     
     if (g_current_language === 'en') {
         msgstr = 'Are you sure to reset all the configurations on the <code>' + name + g_bios_postfix[index] + '</code> tab ?';
-    } else {
+    } else if (g_current_language === 'ru') {
+        msgstr = 'Вы действительно хотите сбросить все конфигурации на вкладке <code>' + name + g_bios_postfix[index] + '</code> ?';
+    else {
         msgstr = '确认要重置 <code>' + name + g_bios_postfix[index] + '</code> 标签页下的所有配置？';
     }
     
@@ -791,6 +934,20 @@ function VtoySelectFilePath(cb, para) {
         $('#SetFileForm #SetFileForm_lang_4').text("Cancel");
         $('#SetFileForm #id_note_setfile_cn').hide();
         $('#SetFileForm #id_note_setfile_en').show();
+        $('#SetFileForm #id_note_setfile_ru').hide();
+    } else if (g_current_language === 'ru') {
+        if (para.title.length === 0) {
+            $('#SetFileForm #SetFileForm_lang_1').text("Указать путь к файлу");
+        } else {
+            $('#SetFileForm #SetFileForm_lang_1').text(para.title);
+        }
+
+        $('#SetFileForm #SetFileForm_lang_2').text("Путь к файлу");
+        $('#SetFileForm #SetFileForm_lang_3').text(" ОК");
+        $('#SetFileForm #SetFileForm_lang_4').text("Отмена");
+        $('#SetFileForm #id_note_setfile_cn').hide();
+        $('#SetFileForm #id_note_setfile_en').hide();
+        $('#SetFileForm #id_note_setfile_ru').show();
     } else {
         if (para.title.length === 0) {
             $('#SetFileForm #SetFileForm_lang_1').text("设置文件路径");
@@ -802,19 +959,27 @@ function VtoySelectFilePath(cb, para) {
         $('#SetFileForm #SetFileForm_lang_4').text("取消");
         $('#SetFileForm #id_note_setfile_cn').show();
         $('#SetFileForm #id_note_setfile_en').hide();
+        $('#SetFileForm #id_note_setfile_ru').hide();
     }
 
     if (para.tip3.length > 0) {
         if (g_current_language === 'en') {
             $('#SetFileForm #id_note_tip3_en').show();
             $('#SetFileForm #id_note_tip3_cn').hide();
+            $('#SetFileForm #id_note_tip3_ru').hide();
+        } else if (g_current_language === 'ru') {
+            $('#SetFileForm #id_note_tip3_ru').show();
+            $('#SetFileForm #id_note_tip3_en').hide();
+            $('#SetFileForm #id_note_tip3_cn').hide();
         } else {
             $('#SetFileForm #id_note_tip3_cn').show();
             $('#SetFileForm #id_note_tip3_en').hide();
+            $('#SetFileForm #id_note_tip3_ru').hide();
         }
     } else {
         $('#SetFileForm #id_note_tip3_en').hide();
         $('#SetFileForm #id_note_tip3_cn').hide();
+        $('#SetFileForm #id_note_tip3_ru').hide();
     }
 
     g_file_modal_callback = cb;
